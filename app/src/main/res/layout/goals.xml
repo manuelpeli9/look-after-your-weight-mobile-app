@@ -1,0 +1,88 @@
+
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.manuel.layw_app.MainActivity"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+
+
+
+            <TextView
+                style="@style/goals"
+                android:text="@string/goals"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/goal_text_view"
+                    android:textStyle="bold"
+                    android:text="@string/steps"/>
+                <TextView
+                    style="@style/goal_text_view"
+                    android:id="@+id/goal_step"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/goal_text_view"
+                    android:textStyle="bold"
+                    android:text="@string/calories_goal"/>
+                <TextView
+                    style="@style/goal_text_view"
+                    android:id="@+id/goal_calories"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/goal_text_view"
+                    android:textStyle="bold"
+                    android:text="@string/weight"/>
+                <TextView
+                    android:id="@+id/goal_weight"
+                    style="@style/goal_text_view"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/goal_text_view"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    style="@style/goal_text_view"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
